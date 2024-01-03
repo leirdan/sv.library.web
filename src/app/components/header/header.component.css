@@ -1,0 +1,9 @@
+.header {
+  /* background-image: url('../../../assets/logo.jpg'); */
+  background-color: var(--main-yellow);
+  color: var(--main-dark-blue);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
