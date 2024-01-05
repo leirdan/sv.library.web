@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CreateBookComponent } from './components/books/create-book/create-book.component';
 import { FormsModule } from '@angular/forms';
+import { BooksComponent } from './components/books/books/books.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CreateBookComponent
+    CreateBookComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,

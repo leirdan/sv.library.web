@@ -1,14 +1,14 @@
 .header {
-  /* background-image: url('../../../assets/logo.jpg'); */
-  background-color: var(--main-yellow);
-  color: var(--main-dark-blue);
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	/* background-image: url('../../../assets/logo.jpg'); */
+	background-color: var(--main-yellow);
+	color: var(--main-dark-blue);
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .nav-item > a {
-  text-decoration: none;
-  color:var(--main-dark-blue);
+	text-decoration: none;
+	color: var(--main-dark-blue);
 }
