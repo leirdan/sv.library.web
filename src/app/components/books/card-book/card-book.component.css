@@ -1,0 +1,19 @@
+.nota1 {
+	box-shadow: 8px 8px 0px rgb(224, 0, 0);
+}
+
+.nota2 {
+	box-shadow: 8px 8px 0px rgb(224, 220, 0);
+}
+
+.nota3 {
+	box-shadow: 8px 8px 0px white;
+}
+
+.nota4 {
+	box-shadow: 8px 8px 0px green;
+}
+
+.nota5 {
+	box-shadow: 8px 8px 0px rgb(22, 224, 0);
+}
