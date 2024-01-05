@@ -1,0 +1,49 @@
+<section id="new-book">
+
+  <h5 class="text-center"> Adicionar novo livro </h5>
+
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-10 col-lg-8">
+
+      <form class="row g-4 text-center">
+
+        <div class="col-md-6">
+          <label class="form-label" id="book-title"> Título </label>
+          <input class="form-control" type="text" id="book-title" name="title" [(ngModel)]="book.title">
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label" for="book-author"> Autor </label>
+          <input class="form-control" type="text" id="book-author" name="author" [(ngModel)]="book.author">
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label" for="book-year"> Lançamento </label>
+          <input class="form-control" type="number" id="book-year" name="year" placeholder="ex.: 2004, 1998" [(ngModel)]="book.year">
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label" for="book-publisher"> Editora </label>
+          <input class="form-control" type="text" id="book-publisher" name="publisher" [(ngModel)]="book.publisher">
+        </div>
+
+        <div class="row justify-content-center mt-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> {{ book.title }}</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">{{ book.author }}</h6>
+              <p class="card-text">Lançado em: {{book.year}}. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="justify-content-around">
+          <button class="col-md-3 btn btn-outline-primary mx-2" type="submit" (click)="addBook()"> Adicionar </button>
+          <button class="col-md-3 btn btn-outline-danger mx-2"> Cancelar </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</section>
