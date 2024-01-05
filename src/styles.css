@@ -1,9 +1,11 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 body {
-  font-family: 'Poppins', Verdana, Tahoma, sans-serif;
+	font-family: "Poppins", Verdana, Tahoma, sans-serif;
 }
-:root{
-  --main-yellow: #ffe45e;
-  --main-blue: #5aa9e6;
-  --main-dark-blue: #2b2d42;
-  --main-white: #F9F9F9;
+:root {
+	--main-yellow: #ffe45e;
+	--main-blue: #5aa9e6;
+	--main-dark-blue: #2b2d42;
+	--main-white: #f9f9f9;
 }
